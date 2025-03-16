@@ -23,6 +23,8 @@ DLL to skip over showing the startup cutscenes.
 
 1. If your game crashes unexpectedly during startup when injecting the DLL, or if it otherwise isn't working as expected, check the log file that you will find within the directory that contains your ELDENRING.exe.
 
+1. This mod has not been tested with other mods! If you think you found a new issue, make sure you're using a vanilla copy of ELDEN RING, or be sure that you aren't modifying related code already with your mods.
+
 ### Contributing
 1. Think you found a new issue? Check [here](https://github.com/chozandrias76/er-skip-startup-cutscenes/issues?q=sort%3Aupdated-desc) 
 1. Add an issue if one isn't closed for your problem, or if one isn't already open related to your problem.
