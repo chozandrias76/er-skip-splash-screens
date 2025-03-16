@@ -1,5 +1,5 @@
 [package]
-name = "er_skip_startup_cutscenes"
+name = "er_skip_splash_screens"
 version = "0.1.0"
 edition = "2024"
 

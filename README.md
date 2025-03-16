@@ -7,10 +7,10 @@
   
 </p>
 
-# ER Startup Cutscene Skipper
+# ER Splash Screen Skipper
 
 ## Description
-DLL to skip over showing the startup cutscenes.
+DLL to skip over showing the splash screens.
 
 ## Users
 
@@ -19,14 +19,14 @@ DLL to skip over showing the startup cutscenes.
 
 1. Injecting this DLL while connected to official FromSoft servers is **NOT RECOMMENDED**.
 
-1. The latest and safe-to-use DLL will always be found on the [Releases](https://github.com/chozandrias76/er-skip-startup-cutscenes/releases) page, and this page should be linked/back-linked to [my corresponding Nexus Mod author page](https://next.nexusmods.com/profile/xenos76/mods).
+1. The latest and safe-to-use DLL will always be found on the [Releases](/releases) page, and this page should be linked/back-linked to [my corresponding Nexus Mod author page](https://next.nexusmods.com/profile/xenos76/mods).
 
 1. If your game crashes unexpectedly during startup when injecting the DLL, or if it otherwise isn't working as expected, check the log file that you will find within the directory that contains your ELDENRING.exe.
 
 1. This mod has not been tested with other mods! If you think you found a new issue, make sure you're using a vanilla copy of ELDEN RING, or be sure that you aren't modifying related code already with your mods.
 
 ### Contributing
-1. Think you found a new issue? Check [here](https://github.com/chozandrias76/er-skip-startup-cutscenes/issues?q=sort%3Aupdated-desc) 
+1. Think you found a new issue? Check [here](/issues?q=sort%3Aupdated-desc) 
 1. Add an issue if one isn't closed for your problem, or if one isn't already open related to your problem.
 1. It should be noted that this feature is considered complete, and may only receive updates for security reasons or in the event the game is updated and it breaks this implementation.
 
@@ -35,8 +35,8 @@ DLL to skip over showing the startup cutscenes.
 ### Building
 1. Clone [this repository](/)
 1. [Install Rust](https://rust-lang.github.io/rustup/installation/index.html)
-1. Navigate to the directory and run: `$ cargo build --manifest-path er_skip_startup_cutscenes/Cargo.toml`
-1. Your User ready DLL will be found within `.\er_skip_startup_cutscenes\target\debug\er_skip_startup_cutscenes.dll`
+1. Navigate to the directory and run: `$ cargo build --manifest-path er_skip_splash_screens/Cargo.toml`
+1. Your User ready DLL will be found within `.\er_skip_splash_screens\target\debug\er_skip_splash_screens.dll`
 
 ### Contributing
 1. Pull requests will be reviewed from forks attempting to merge if they correspond to an issue.

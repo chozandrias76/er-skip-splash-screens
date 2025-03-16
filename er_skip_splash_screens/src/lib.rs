@@ -23,7 +23,7 @@ pub unsafe extern "C" fn DllMain(_hmodule: usize, reason: u32) -> bool {
 }
 
 fn setup() {
-    let rolling_log = tracing_appender::rolling::never("./", "er-skip-startup-cutscenes.log");
+    let rolling_log = tracing_appender::rolling::never("./", "er_skip_splash_screens.log");
     tracing_subscriber::fmt().with_writer(rolling_log).init();
     std::panic::set_hook(Box::new(panic_hook));
 

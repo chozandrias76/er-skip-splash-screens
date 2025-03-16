@@ -170,7 +170,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
 
 [[package]]
-name = "er_skip_startup_cutscenes"
+name = "er_skip_splash_screens"
 version = "0.1.0"
 dependencies = [
  "crash-handler",
