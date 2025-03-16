@@ -7,7 +7,7 @@
   
 </p>
 
-# ER Skip Startup Cutscene Skipper
+# ER Startup Cutscene Skipper
 
 ## Description
 DLL to skip over showing the startup cutscenes.
