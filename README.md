@@ -1,10 +1,8 @@
 <p align="center" style="margin-bottom: 5rem">
   <a href="./readme.md">
-    <img alt="Temporary AI generated logo" src="./logo.webp" alt="ER Skip Startup Cutscenes Logo" width="250" style="border-radius: 10px; border: 2px solid black;">
-    </br>
-    <sub>Temporary AI generated logo</sub>
+    <img alt="Elden Ring Splash Screen Skipper Logo" src="./logo.svg" alt="ER Skip Startup Cutscenes Logo" width="250">
+    
   </a>
-  
 </p>
 
 # ER Splash Screen Skipper
@@ -25,6 +23,9 @@ DLL to skip over showing the splash screens.
 
 1. This mod has not been tested with other mods! If you think you found a new issue, make sure you're using a vanilla copy of ELDEN RING, or be sure that you aren't modifying related code already with your mods.
 
+### Intended Experience
+[![Watch the video](/static.jpg)](/user.webm)
+
 ### Contributing
 1. Think you found a new issue? Check [here](/issues?q=sort%3Aupdated-desc) 
 1. Add an issue if one isn't closed for your problem, or if one isn't already open related to your problem.
@@ -38,6 +39,14 @@ DLL to skip over showing the splash screens.
 1. Navigate to the directory and run: `$ cargo build --manifest-path er_skip_splash_screens/Cargo.toml`
 1. Your User ready DLL will be found within `.\er_skip_splash_screens\target\debug\er_skip_splash_screens.dll`
 
+### Example Experience
+[![Watch the video](/static.jpg)](/dev.webm)
+
 ### Contributing
 1. Pull requests will be reviewed from forks attempting to merge if they correspond to an issue.
 1. Pull requests should not be expected to be merged or reviewed on regular basis
+
+## Credits
+* Clairmond for providing the logo
+* [Vswarte](https://github.com/vswarte) for the mentorship, inspiration, and eldenring-rs
+* [Tremwil](https://github.com/tremwil) for the work on TGA and the just-do-it attitude
