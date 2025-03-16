@@ -1,6 +1,8 @@
-<div style="display: flex; align-items: center; justify-content: center;"><a style="margin-bottom: 5rem;" href="/blob/master/icon/readme.md">
-  <img style="border-radius: 10px; border: 2px solid black; object-fit: cover;"width="250px" src="./logo.webp" />
-</a></div>
+<p align="center" style="margin-bottom: 5rem">
+  <a href="./icon/readme.md">
+    <img src="./logo.webp" alt="ER Skip Startup Cutscenes Logo" width="250" style="border-radius: 10px; border: 2px solid black;">
+  </a>
+</p>
 
 # ER Skip Startup Cutscene Skipper
 
