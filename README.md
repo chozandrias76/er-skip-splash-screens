@@ -24,7 +24,7 @@ DLL to skip over showing the splash screens.
 1. This mod has not been tested with other mods! If you think you found a new issue, make sure you're using a vanilla copy of ELDEN RING, or be sure that you aren't modifying related code already with your mods.
 
 ### Intended Experience
-[![Watch the video](/static.jpg)](/user.webm)
+[![Watch the video](/static.jpg)](/user.gif)
 
 ### Contributing
 1. Think you found a new issue? Check [here](/issues?q=sort%3Aupdated-desc) 
@@ -40,7 +40,7 @@ DLL to skip over showing the splash screens.
 1. Your User ready DLL will be found within `.\er_skip_splash_screens\target\debug\er_skip_splash_screens.dll`
 
 ### Example Experience
-[![Watch the video](/static.jpg)](/dev.webm)
+[![Watch the video](/static.jpg)](/dev.gif)
 
 ### Contributing
 1. Pull requests will be reviewed from forks attempting to merge if they correspond to an issue.
