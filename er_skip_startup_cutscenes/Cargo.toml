@@ -1,0 +1,29 @@
+[package]
+name = "er_skip_startup_cutscenes"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+game = { git = "https://github.com/vswarte/eldenring-rs", branch = "main" }
+util = { git = "https://github.com/vswarte/eldenring-rs", branch = "main" }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+tracing-panic = "0.1"
+tracing-appender = "0.2.3"
+crash-handler = "0.6"
+serde = {version = "1.0.219", features = ["derive"] }
+pelite = "0.10.0"
+
+[workspace.dependencies.tracing-tracy]
+version = "0.11.3"
+features = ["enable"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"
+opt-level = "z"
