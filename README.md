@@ -10,7 +10,7 @@
 # ER Skip Startup Cutscene Skipper
 
 ## Description
-Simple DLL to replace runtime execution of function body which shows startup cutscenes with an early return.
+DLL to skip over showing the startup cutscenes.
 
 ## Users
 
