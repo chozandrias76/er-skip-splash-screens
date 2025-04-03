@@ -45,6 +45,7 @@ DLL to skip over showing the splash screens.
 ### Contributing
 1. Pull requests will be reviewed from forks attempting to merge if they correspond to an issue.
 1. Pull requests should not be expected to be merged or reviewed on regular basis
+1. Any pull requests that reduce efficiency or effectiveness towards solving the described feature or otherwise do the described feature in a less safe manner will be rejected.
 
 ## Credits
 * Clairmond for providing the logo
